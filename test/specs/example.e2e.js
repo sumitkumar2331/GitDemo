@@ -9,7 +9,9 @@ describe('My Login application', () => {
         await expect(SecurePage.flashAlert).toBeExisting();
         await expect(SecurePage.flashAlert).toHaveTextContaining(
             'You logged into a secure area!');
+        console.log("This is the change made")
     });
 });
+
 
 
